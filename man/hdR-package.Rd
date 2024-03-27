@@ -12,6 +12,7 @@ What the package does (one paragraph).
 Useful links:
 \itemize{
   \item \url{https://github.com/brunomioto/hdR}
+  \item \url{https://brunomioto.github.io/hdR/}
   \item Report bugs at \url{https://github.com/brunomioto/hdR/issues}
 }
 

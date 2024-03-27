@@ -1,0 +1,27 @@
+---
+title: "hdR"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Let's see the trend of Brazilian HDI (Human Development Index)
+
+```{r, warning=FALSE}
+library(hdR)
+library(ggplot2)
+
+brazil_hdi <- country_indicators(country = "BRA",
+                                 indicator = "hdi")
+
+ggplot(brazil_hdi, aes(x = year, y = value))+
+  geom_line()+
+  geom_point(
+    shape = 21,
+    fill = "white"
+  )
+```

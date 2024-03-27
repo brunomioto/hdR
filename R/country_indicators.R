@@ -32,7 +32,9 @@ country_indicators <- function(country = NULL,
     httr2::req_perform() %>%
     httr2::resp_body_json()
 
-  resp_df <- dplyr::bind_rows(resp)
+  resp_df <- dplyr::bind_rows(resp) %>%
+    dplyr::mutate(year = as.numeric(year),
+                  value = as.numeric(value))
 
   return(resp_df)
 
