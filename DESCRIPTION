@@ -14,5 +14,5 @@ Imports:
     dplyr,
     httr2,
     magrittr
-URL: https://github.com/brunomioto/hdR
+URL: https://github.com/brunomioto/hdR, https://brunomioto.github.io/hdR/
 BugReports: https://github.com/brunomioto/hdR/issues
