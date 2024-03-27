@@ -16,4 +16,4 @@ Imports:
     magrittr
 URL: https://github.com/brunomioto/hdR, https://brunomioto.github.io/hdR/
 BugReports: https://github.com/brunomioto/hdR/issues
-Config/Needs/website: rmarkdown
+Config/Needs/website: rmarkdown, ggplot2
