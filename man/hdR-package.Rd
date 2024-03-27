@@ -4,12 +4,20 @@
 \name{hdR-package}
 \alias{hdR}
 \alias{hdR-package}
-\title{hdR: What the Package Does (One Line, Title Case)}
+\title{hdR: download data from Human Development Report Office (HDRO)}
 \description{
 What the package does (one paragraph).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/brunomioto/hdR}
+  \item Report bugs at \url{https://github.com/brunomioto/hdR/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Bruno Mioto \email{brunomioto97@gmail.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}
