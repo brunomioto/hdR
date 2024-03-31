@@ -1,5 +1,5 @@
 Package: hdR
-Title: download data from Human Development Report Office (HDRO)
+Title: Download data from Human Development Report Office (HDRO)
 Version: 0.0.0.9000
 Authors@R: 
     person("Bruno", "Mioto", , "brunomioto97@gmail.com", role = c("aut", "cre"),
